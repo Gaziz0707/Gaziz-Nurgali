@@ -86,7 +86,6 @@ Example
 
 ## 6. Edge Cases / Unusual Inputs
 
-What happens if:
 
 - The program performs basic data validation before performing calculations.
 - If the user leaves any field blank, the program displays a message asking the user to fill in all fields.
