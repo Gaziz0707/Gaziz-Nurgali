@@ -58,19 +58,21 @@ Additionally:
  - If balance ≥ 0 – The user has a positive monthly balance.
 
 
-Explain why you chose these ranges (if using real model, mention it).
+I chose these ranges based on general personal finance recommendations. Financial advisors often recommend setting aside at least 10% of monthly income to build a financial safety net and ensure long-term stability. A savings rate below 5% may indicate a person is saving too little and may be at financial risk.
+A range of 5% to 10% indicates a moderate level of financial discipline—the person is trying to save, but this may not be enough for serious goals or unexpected situations.
+Savings of 10% or more reflect a responsible approach to finances and a commitment to long-term financial stability.
+
 
 ---
 
 ## 5. Output
 
-What does your program show to the user?
-
-- Calculated value  
-- Category or interpretation  
-- Personalized message (if used)  
-- Optional: binary output (if implemented)
-
+  It shows:
+  A personalized message, such as:
+  “Hello, [Name]!”
+  The calculated monthly balance (income − expenses).
+  The calculated saving rate as a percentage.
+  The financial category based on the saving rate (Poor, Good, or Excellent financial discipline).
 ---
 
 ## 6. Edge Cases / Unusual Inputs
