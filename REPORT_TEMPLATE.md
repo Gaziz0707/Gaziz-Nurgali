@@ -50,9 +50,7 @@ The program interprets the financial situation based on the saving rate percenta
 
 
 - If saving rate < 5% → Poor saving habits
-- 
 - If saving rate is between 5% and 10% → Good financial management
-- 
 - If saving rate ≥ 10% → Excellent financial discipline
 
 Additionally:
