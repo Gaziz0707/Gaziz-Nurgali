@@ -1,16 +1,49 @@
-/* Starter CSS to edit */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
 body {
-    font-family: Arial, sans-serif;
-    max-width: 600px;
-    margin: 40px auto;
-    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5eef4;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.container {
+    background-color: white;
+    padding: 30px;
+    width: 400px;
+    border-radius: 16px;   
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
 }
 
 h1 {
     text-align: center;
 }
 
-#output {
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 6px;
+    margin-top: 5px;
+}
+
+button {
+    margin-top: 15px;
+    width: 100%;
+    padding: 8px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+.result {
     margin-top: 20px;
     font-weight: bold;
 }
