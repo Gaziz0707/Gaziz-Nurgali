@@ -20,9 +20,10 @@ List and explain all inputs you used.
 |---|---|---|
 | Example: Monthly income | USD$ | Total money earned per month |
 | Example: Monthly expenses | USD$ | Total money spent per month |
+| Example: Monthly savings | USD$ | Amount of money saved during the month |
 
 Explain in words:  
-(Why did you choose these inputs? Why are they important?)
+I chose these parameters because they represent the basic elements of personal finance management. Monthly income shows how much money a person earns, expenses show how much they spend, and savings show how much they can save. These parameters are important because they allow the calculator to determine financial balance and savings levels, which helps assess financial discipline.
 
 ---
 
@@ -32,7 +33,7 @@ Explain in words:
 (Write your formula or explain how calculation works.)
 
 Example:  
-BMI = weight / (height in meters)^2
+SavingRate = weight / (height in meters)^2
 
 **Steps:**
 1. Get input values from HTML  
