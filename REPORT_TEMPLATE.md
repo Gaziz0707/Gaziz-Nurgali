@@ -33,8 +33,8 @@ I chose these parameters because they represent the basic elements of personal f
 
 
 Formula:  
-SavingRate = weight / (height in meters)^2
-Balance = Income - Expenses 
+- SavingRate = weight / (height in meters)^2
+- Balance = Income - Expenses 
 
 **Steps:**
 1. Get input values from HTML  
