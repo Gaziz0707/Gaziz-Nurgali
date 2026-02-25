@@ -3,10 +3,11 @@
 ## 1. Project Overview
 
 **Project Name:**  
-(write your project name)
+Monthly Money Control Calculator
+
 
 **What does your calculator do?**  
-(Explain in 2–3 sentences what problem you are solving and what you calculate.)
+This calculator helps users understand their monthly financial situation. It calculates the difference between income and expenses and determines the percentage of income saved. Based on the results, it classifies the user’s financial habits as poor, good, or excellent.
 
 Example:  
 This calculator calculates Body Mass Index (BMI) using weight and height. It also classifies the result into health categories.
