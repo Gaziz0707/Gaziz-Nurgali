@@ -74,6 +74,13 @@ Savings of 10% or more reflect a responsible approach to finances and a commitme
   - The calculated monthly balance (income − expenses).
   - The calculated saving rate as a percentage. 
   - The financial category based on the saving rate (Poor, Good, or Excellent financial discipline).
+    
+Example
+- Hello, Gaziz!
+- Your monthly balance is: $250
+- Your saving rate is: 9%
+- Financial status: Good
+
 
 ---
 
