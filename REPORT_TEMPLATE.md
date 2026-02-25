@@ -88,25 +88,15 @@ Example
 
 What happens if:
 
-- User enters zero?  
-- User enters negative number?  
-- User leaves input empty?  
+- The program performs basic data validation before performing calculations.
+- If the user leaves any field blank, the program displays a message asking the user to fill in all fields.
+- If the monthly income is zero, the program indicates that the income must be greater than zero to calculate the savings percentage.
+- If the user enters negative values, the program displays an error message, as income, expenses, and savings cannot be negative within the -scope of this calculator.
 
-Explain how your program handles this.
-
----
-
-## 7. Optional Features (If You Added Any)
-
-Examples:
-- Binary conversion  
-- Extra calculations  
-- Extra UI features  
-- Validation messages  
 
 ---
 
-## 8. How to Run the Project
+## 7. How to Run the Project
 
 1. Download or clone repository  
 2. Open `index.html` in browser  
@@ -115,19 +105,20 @@ Examples:
 
 ---
 
-## 9. AI Usage (If Used)
+## 8. AI Usage (If Used)
 
 Did you use AI tools?  
 (Yes / No)
+-Yes, I used AI tools 
 
-If yes, explain briefly:
-- What you asked AI for  
-- What you modified yourself  
-- What you fully understand now  
+I turned to the AI ​​for tips on project structure, JavaScript syntax, and the overall logic of the calculator. I learned some things I didn't know (there were many, especially in JS) through chatgpt and gemini. When I didn't understand something, I asked the AI ​​or watched YouTube tutorials. I also clarified how to properly implement data validation and HTML output. Sometimes there were errors in the code that were so difficult to understand, I also turned to the AI. I also turned to the AI ​​for how to convert string values ​​to numbers using Number(), and how to use the toFixed() method for rounding percentages. I'd forgotten the values ​​that should be used in CSS, like cursor or padding, but now that I've practiced, I've remembered them.
+I also adapted the code to my own calculation formula, changed the category ranges, configured the conditional logic, and fully understood how variables, calculations, and conditional operators work
+I now understand my code and can explain how data is retrieved, indicators are calculated, if/else conditions are applied, and the results are displayed on the page. Along the way, I've learned how the relationship between HTML and JavaScript works, how data flows from input to processing to output, and how the program makes decisions based on conditions.
+After receiving hints, I adapted the code to my own formula, chose my own category ranges, simplified the structure, and fully understood the program's logic.
 
 ---
 
-## 10. Reflection
+## 9. Reflection
 
 What did you learn from this assignment?
 
