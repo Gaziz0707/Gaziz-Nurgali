@@ -120,6 +120,7 @@ After receiving hints, I adapted the code to my own formula, chose my own catego
 
 ## 9. Reflection
 
-What did you learn from this assignment?
+This was interesting because I hadn't coded in a while, and completing this assignment helped me gain a deeper understanding of web app development and the interactions between HTML, CSS, and JavaScript. I knew the basics of HTML and CSS, but I'd never built a full-fledged calculator with calculations and if/else logic. While completing this assignment, I clearly saw the path from input to processing to output. Overall, I think these types of assignments are very effective.
+
 
 (2–4 sentences)
