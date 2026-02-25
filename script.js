@@ -1,6 +1,6 @@
 function calculateMoney() {
 
-    // Values
+            // значений
     let name = document.getElementById("name").value;
     let income = Number(document.getElementById("income").value);
     let expenses = Number(document.getElementById("expenses").value);
@@ -17,7 +17,7 @@ function calculateMoney() {
         return;
     }
 
-    // Validation: negative numbers
+    // отриц. числа
     if (income < 0 || expenses < 0 || savings < 0) {
         resultDiv.innerHTML = "Values cannot be negative.";
         return;
@@ -29,7 +29,7 @@ function calculateMoney() {
         return;
     }
 
-    // Calculations, formulii
+    // формулы итд
     let balance = income - expenses;
     let savingRate = (savings / income) * 100;
 
@@ -37,7 +37,7 @@ function calculateMoney() {
 
     let category = "";
 
-    // Conditional logic
+    // логика работы
     if (savingRate < 5) {
         category = "Poor saving habits";
     } 
@@ -48,7 +48,7 @@ function calculateMoney() {
         category = "Excellent financial discipline";
     }
 
-    // Output
+    // вывод
     resultDiv.innerHTML =
         "Hello, " + name + "!<br><br>" +
         "Your monthly balance is: $" + balance + "<br>" +
