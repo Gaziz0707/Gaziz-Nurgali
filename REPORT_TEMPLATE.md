@@ -9,8 +9,6 @@ Monthly Money Control Calculator
 **What does your calculator do?**  
 This calculator helps users understand their monthly financial situation. It calculates the difference between income and expenses and determines the percentage of income saved. Based on the results, it classifies the user’s financial habits as poor, good, or excellent.
 
-Example:  
-This calculator calculates Body Mass Index (BMI) using weight and height. It also classifies the result into health categories.
 
 ---
 
@@ -20,8 +18,8 @@ List and explain all inputs you used.
 
 | Input Name | Unit | What it Represents |
 |---|---|---|
-| Example: Weight | kg | User body weight |
-| Example: Height | cm | User height |
+| Example: Monthly income | USD$ | Total money earned per month |
+| Example: Monthly expenses | USD$ | Total money spent per month |
 
 Explain in words:  
 (Why did you choose these inputs? Why are they important?)
