@@ -2,21 +2,34 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Personal Calculator</title>
+    <title>Monthly Money Control Calculator</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<h1>Personal Calculator</h1>
+    <div class="container">
+        <h1>Monthly Money Control Calculator</h1>
 
-<form id="calculatorForm">
-    <!-- Add input fields here -->
-</form>
+        <form id="moneyForm">
 
-<div id="output">
-    <!-- Results will be displayed here -->
-</div>
+            <label>Name:</label>
+            <input type="text" id="name">
 
-<script src="script.js"></script>
+            <label>Monthly Income ($):</label>
+            <input type="number" id="income">
+
+            <label>Monthly Expenses ($):</label>
+            <input type="number" id="expenses">
+
+            <label>Monthly Savings ($):</label>
+            <input type="number" id="savings">
+
+            <button type="button" onclick="calculateMoney()">Calculate</button>
+
+        </form>
+
+        <div id="result" class="result"></div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
-</html>
