@@ -30,10 +30,11 @@ I chose these parameters because they represent the basic elements of personal f
 ## 3. Process (Calculation Logic)
 
 **Formula or Calculation Used:**  
-(Write your formula or explain how calculation works.)
 
-Example:  
+
+Formula:  
 SavingRate = weight / (height in meters)^2
+Balance = Income - Expenses 
 
 **Steps:**
 1. Get input values from HTML  
@@ -45,13 +46,17 @@ SavingRate = weight / (height in meters)^2
 
 ## 4. Conditional Logic (if / else)
 
-Explain how your program interprets the result.
+The program interprets the financial situation based on the saving rate percentage and balance.
 
-Example:
 
-If BMI < 18.5 → Underweight  
-If BMI 18.5 – 24.9 → Normal  
-If BMI ≥ 25 → Overweight  
+If saving rate < 5% → Poor saving habits
+If saving rate is between 5% and 10% → Good financial management
+If saving rate ≥ 10% → Excellent financial discipline
+
+Additionally:
+ If balance < 0  – The user is spending more than they earn.
+ If balance ≥ 0 – The user has a positive monthly balance.
+
 
 Explain why you chose these ranges (if using real model, mention it).
 
