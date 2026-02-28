@@ -33,14 +33,16 @@ I chose these parameters because they represent the basic elements of personal f
 
 
 Formula:  
-- SavingRate = weight / (height in meters)^2
+- Saving Rate (%) = (Monthly Savings ÷ Monthly Income) × 100
 - Balance = Income - Expenses 
 
 **Steps:**
-1. Get input values from HTML  
-2. Convert values if needed (example: cm → meters)  
-3. Perform calculation  
-4. Store result in variable  
+1. Get input values from HTML (name, income, expenses, savings).
+2. Convert income, expenses, and savings from string to number using JavaScript.
+3. Calculate the monthly balance by subtracting expenses from income.
+4. Calculate the saving rate percentage using the formula above.
+5. Store the results in variables (balance and savingRate).
+6. Use conditional logic (if/else) to classify financial status based on saving rate.
 
 ---
 
@@ -58,7 +60,7 @@ Additionally:
  - If balance ≥ 0 – The user has a positive monthly balance.
 
 
-I chose these ranges based on general personal finance recommendations. Financial advisors often recommend setting aside at least 10% of monthly income to build a financial safety net and ensure long-term stability. A savings rate below 5% may indicate a person is saving too little and may be at financial risk.
+I chose these ranges based on general personal finance recommendations. Financial advisors often recommend setting aside at least 5-10% of monthly income to build a financial safety net and ensure long-term stability. A savings rate below 5% may indicate a person is saving too little and may be at financial risk.
 A range of 5% to 10% indicates a moderate level of financial discipline—the person is trying to save, but this may not be enough for serious goals or unexpected situations.
 Savings of 10% or more reflect a responsible approach to finances and a commitment to long-term financial stability.
 
